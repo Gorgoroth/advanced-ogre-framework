@@ -27,10 +27,9 @@ void MenuState::enter()
 
     AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->destroyAllWidgets();
     AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->showFrameStats(OgreBites::TL_BOTTOMLEFT);
-    AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->showLogo(OgreBites::TL_BOTTOMRIGHT);
     AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->showCursor();
-    AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "EnterBtn", "Enter GameState", 250);
-    AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "ExitBtn", "Exit AdvancedAdvancedOgreFramework", 250);
+    AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "EnterBtn", "Start Game", 250);
+    AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "ExitBtn", "Exit Game", 250);
     AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->createLabel(OgreBites::TL_TOP, "MenuLbl", "Menu mode", 250);
 
     createScene();
