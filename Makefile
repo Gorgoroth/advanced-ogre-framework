@@ -320,6 +320,30 @@ MenuState.cpp.s:
 	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/MenuState.cpp.s
 .PHONY : MenuState.cpp.s
 
+MovableText.o: MovableText.cpp.o
+.PHONY : MovableText.o
+
+# target to build an object file
+MovableText.cpp.o:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/MovableText.cpp.o
+.PHONY : MovableText.cpp.o
+
+MovableText.i: MovableText.cpp.i
+.PHONY : MovableText.i
+
+# target to preprocess a source file
+MovableText.cpp.i:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/MovableText.cpp.i
+.PHONY : MovableText.cpp.i
+
+MovableText.s: MovableText.cpp.s
+.PHONY : MovableText.s
+
+# target to generate assembly for a file
+MovableText.cpp.s:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/MovableText.cpp.s
+.PHONY : MovableText.cpp.s
+
 NpcOwnedStates.o: NpcOwnedStates.cpp.o
 .PHONY : NpcOwnedStates.o
 
@@ -426,6 +450,9 @@ help:
 	@echo "... MenuState.o"
 	@echo "... MenuState.i"
 	@echo "... MenuState.s"
+	@echo "... MovableText.o"
+	@echo "... MovableText.i"
+	@echo "... MovableText.s"
 	@echo "... NpcOwnedStates.o"
 	@echo "... NpcOwnedStates.i"
 	@echo "... NpcOwnedStates.s"

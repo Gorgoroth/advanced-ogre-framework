@@ -47,6 +47,8 @@ AdvancedOgreFramework.h
 /home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.cpp
 BaseNpc.h
 /home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h
+MovableText.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/MovableText.h
 
 /home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h
 GameState.h
@@ -79,6 +81,8 @@ OgreMaterialManager.h
 -
 BaseNpc.h
 /home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h
+
+/home/vk/Games/ogre3d/advanced-ogre-framework/MovableText.h
 
 /home/vk/Games/ogre3d/advanced-ogre-framework/NpcBaseState.h
 

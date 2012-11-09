@@ -2,7 +2,7 @@
 <CodeBlocks_layout_file>
 	<ActiveTarget name="OgreApp" />
 	<File name="BaseNpc.cpp" open="0" top="0" tabpos="2">
-		<Cursor position="395" topLine="0" />
+		<Cursor position="1082" topLine="0" />
 	</File>
 	<File name="BaseNpc.h" open="0" top="0" tabpos="1">
 		<Cursor position="23" topLine="0" />
@@ -15,5 +15,8 @@
 	</File>
 	<File name="MenuState.cpp" open="0" top="0" tabpos="4">
 		<Cursor position="635" topLine="0" />
+	</File>
+	<File name="MovableText.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="389" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

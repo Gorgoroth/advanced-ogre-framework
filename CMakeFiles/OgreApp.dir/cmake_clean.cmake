@@ -6,6 +6,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o"
   "CMakeFiles/OgreApp.dir/GameState.cpp.o"
   "CMakeFiles/OgreApp.dir/MenuState.cpp.o"
+  "CMakeFiles/OgreApp.dir/MovableText.cpp.o"
   "CMakeFiles/OgreApp.dir/NpcOwnedStates.cpp.o"
   "CMakeFiles/OgreApp.dir/PauseState.cpp.o"
   "CMakeFiles/OgreApp.dir/main.cpp.o"

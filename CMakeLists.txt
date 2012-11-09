@@ -116,6 +116,7 @@ set(HDRS
 	./DotSceneLoader.h
 	./GameState.h
 	./MenuState.h
+	./MovableText.h
 	./NpcBaseState.h
 	./NpcOwnedStates.h
 	./PauseState.h
@@ -130,6 +131,7 @@ set(SRCS
 	./DotSceneLoader.cpp
 	./GameState.cpp
 	./MenuState.cpp
+	./MovableText.cpp
 	./NpcOwnedStates.cpp
 	./PauseState.cpp
 	./main.cpp

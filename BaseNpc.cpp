@@ -1,4 +1,5 @@
 #include "BaseNpc.h"
+#include "MovableText.h"
 
 BaseNpc::BaseNpc()
 {
@@ -16,13 +17,12 @@ BaseNpc::BaseNpc(Ogre::String name, Ogre::SceneManager* m_pSceneMgr, Ogre::Vecto
   m_pCurrentState = Idle::Instance();
 
   // Show name
-  // Ogre::MovableText* msg = new Ogre::MovableText("TXT_001", "this is the caption");
-  // msg->setTextAlignment(Ogre::MovableText::H_CENTER, Ogre::MovableText::V_ABOVE); // Center horizontally and display above the node
-  // // msg->setAdditionalHeight( 2.0f ); //msg->setAdditionalHeight( ei.getRadius() ) // apparently not needed from 1.7
-  // m_pNpcNode->attachObject(msg);
+  Ogre::MovableText* msg = new Ogre::MovableText("TXT_001", "this is the caption");
+  msg->setTextAlignment(Ogre::MovableText::H_CENTER, Ogre::MovableText::V_ABOVE); // Center horizontally and display above the node
+  m_pNpcNode->attachObject(msg);
 
   // Create the walking list
-  mWalkList.push_back(Ogre::Vector3(400.0f,  0.0f,  0.0f ));
+  // mWalkList.push_back(Ogre::Vector3(400.0f,  0.0f,  0.0f ));
   // mWalkList.push_back(Ogre::Vector3(400.0f,  0.0f, -200.0f));
   // mWalkList.push_back(Ogre::Vector3(0.0f,  0.0f, -200.0f));
   // mWalkList.push_back(Ogre::Vector3(0.0f,  0.0f, 0.0f));

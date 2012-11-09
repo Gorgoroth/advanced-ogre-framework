@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"m_nPc",
+				"m_pNpc01"
+			],
+			[
 				"event",
 				"event_date"
 			],
@@ -327,6 +331,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "BaseNpc.cpp",
+			"settings":
+			{
+				"buffer_size": 3412,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "NpcOwnedStates.cpp",
+			"settings":
+			{
+				"buffer_size": 2179,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "GameState.cpp",
+			"settings":
+			{
+				"buffer_size": 8960,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "NpcOwnedStates.h",
+			"settings":
+			{
+				"buffer_size": 980,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "BaseNpc.h",
+			"settings":
+			{
+				"buffer_size": 1153,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -412,17 +456,35 @@
 	},
 	"file_history":
 	[
-		"/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.cpp",
+		"/home/vk/Downloads/OGRE.3D.1.7.Application.Development.Cookbook_Code/Chapter01/ResourceManagement/ResourceManagement/Engine.cpp",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/dist/bin/OgreLogfile.log",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/dist/bin/resources.cfg",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeLists.txt",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/MovableText.cpp",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/MovableText.h",
+		"/home/vk/Dropbox/Firma/Projekte/Quest of Legend/Code/AI Test/Enemy.cpp",
+		"/home/vk/Dropbox/Firma/Projekte/Quest of Legend/Code/AI Test/EnemyOwnedStates.cpp",
+		"/home/vk/Dropbox/Firma/Projekte/Quest of Legend/Code/AI Test/main.cpp",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.h",
+		"/home/vk/Dropbox/Firma/Projekte/Quest of Legend/Code/AI Test/EnemyOwnedStates.h",
+		"/home/vk/Dropbox/Firma/Projekte/Quest of Legend/Code/AI Test/Enemy.h",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h",
 		"/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.cpp",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.cpp",
+		"/home/vk/Dropbox/Firma/Projekte/Quest of Legend/Code/AI Test/EnemyState.h",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/NpcBaseState.h",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/NpcOwnedStates.h",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/dist/NpcOwnedStates.cpp",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/dist/media/materials/scripts/Examples.material",
+		"/home/vk/Games/ogre3d/ogre_src_v1-8-1/Samples/Media/materials/scripts/Examples.material",
+		"/home/vk/Games/ogre3d/advanced-ogre-framework/BaseState.h",
+		"/home/vk/Dropbox/Firma/Projekte/Quest of Legend/Code/AI Test/EnemyState.cpp",
+		"/home/vk/Dropbox/Firma/Projekte/Quest of Legend/Code/AI Test/Log.cpp",
+		"/home/vk/Dropbox/Firma/Projekte/Quest of Legend/Code/AI Test/GameObject.h",
 		"/home/vk/Games/ogre3d/ogre-basic-tutorial2/BasicTutorial2.cpp",
 		"/home/vk/Games/ogre3d/ogre-basic-tutorial3/TutorialApplication.cpp",
-		"/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h",
-		"/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.h",
 		"/home/vk/Games/ogre3d/ogre_src_v1-8-1/Samples/SkeletalAnimation/src/SkeletalAnimation.cpp",
-		"/home/vk/Games/ogre3d/advanced-ogre-framework/dist/bin/OgreLogfile.log",
 		"/home/vk/Games/ogre3d/advanced-ogre-framework/AdvancedOgreFramework.cpp",
-		"/home/vk/Games/ogre3d/advanced-ogre-framework/dist/media/materials/scripts/Examples.material",
-		"/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeLists.txt",
 		"/home/vk/Games/ogre3d/advanced-ogre-framework/RenderComponent.h",
 		"/home/vk/Games/ogre3d/advanced-ogre-framework/dist/media/cube_scene/CubeScene.xml",
 		"/home/vk/Games/ogre3d/ogre-basic-tutorial1/BaseApplication.cpp",
@@ -452,7 +514,6 @@
 		"/home/vk/Games/ogre3d/advanced-ogre-framework/dist/bin/ogre.cfg",
 		"/home/vk/Games/ogre3d/ogre-basic-tutorial3/dist/bin/plugins.cfg",
 		"/home/vk/Games/ogre3d/advanced-ogre-framework/MenuState.cpp",
-		"/home/vk/Games/ogre3d/advanced-ogre-framework/dist/bin/resources.cfg",
 		"/home/vk/Games/ogre3d/spacegaier-advancedogreframework-819e50e49e92/AdvancedOgreFramework/bin/release/resources.cfg",
 		"/home/vk/Games/ogre3d/ogre-basic-tutorial3/CMakeLists.txt",
 		"/home/vk/Games/ogre3d/advanced-ogre-framework/AppStateManager.cpp",
@@ -522,24 +583,7 @@
 		"/home/vk/Rails/mindag/Gemfile",
 		"/home/vk/Rails/mindag/db/migrate/20121025113505_create_events.rb",
 		"/home/vk/Rails/sample_app/app/helpers/sessions_helper.rb",
-		"/home/vk/Rails/sample_app/app/controllers/sessions_controller.rb",
-		"/home/vk/Rails/sample_app/app/helpers/application_helper.rb",
-		"/home/vk/Rails/mindag/app/controllers/users_controller.rb",
-		"/home/vk/Rails/mindag/features/authentication.feature",
-		"/home/vk/Rails/Albumizr/features/step_definitions/albumizr_steps.rb",
-		"/home/vk/Rails/Albumizr/spec/spec_helper.rb",
-		"/home/vk/Rails/Albumizr/features/support/env.rb",
-		"/home/vk/Rails/mindag/features/support/env.rb",
-		"/home/vk/Rails/mindag/db/migrate/20121025082515_add_remember_token_to_users.rb",
-		"/home/vk/Rails/mindag/config/application.rb",
-		"/home/vk/Rails/mindag/config/locales/views/sessions/en.yml",
-		"/home/vk/Rails/mindag/config/locales/models/user/en.yml",
-		"/home/vk/Rails/mindag/features/signup.feature",
-		"/home/vk/Rails/mindag/app/views/sessions/new.html.erb",
-		"/home/vk/Rails/mindag/config/locales/en.yml",
-		"/home/vk/Rails/Albumizr/app/controllers/sessions_controller.rb",
-		"/home/vk/Rails/Albumizr/app/views/sessions/new.html.erb",
-		"/home/vk/Rails/mindag/app/assets/stylesheets/sessions.css.scss"
+		"/home/vk/Rails/sample_app/app/controllers/sessions_controller.rb"
 	],
 	"find":
 	{
@@ -561,6 +605,38 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"changeState",
+			"tavern",
+			"Tavern",
+			"tavern",
+			"Tavern",
+			"-100",
+			"Enemy *pEnemy",
+			"working",
+			"work",
+			"Work",
+			"work",
+			"Work",
+			"idle",
+			"Idle",
+			"idle",
+			"Idle",
+			"200",
+			"160",
+			"0.3",
+			"300",
+			"200",
+			"work",
+			"Work",
+			"work",
+			"Work",
+			"Home",
+			"barre",
+			"m_pNpcNode",
+			";",
+			"Enemy",
+			"EnemyState",
+			"Log",
 			"Camera",
 			"mSceneMgr",
 			"3",
@@ -656,39 +732,7 @@
 			"pp",
 			"PP",
 			"//|||||||||||||||||||||||||||||||||||||||||||||||",
-			"pp",
-			"PP",
-			"//|||||||||||||||||||||||||||||||||||||||||||||||",
-			"MENU_STATE_H",
-			"pp",
-			"PP",
-			"//|||||||||||||||||||||||||||||||||||||||||||||||",
-			"\\",
-			"//|||||||||||||||||||||||||||||||||||||||||||||||",
-			"OgreFramework",
-			"//|||||||||||||||||||||||||||||||||||||||||||||||",
-			"h",
-			"OGRE_PLATFORM_WIN32",
-			"OGRE_PLATFORM",
-			"startRendering",
-			"Engine",
-			"TutorialApplication",
-			"BaseApplication",
-			"Create",
-			"new",
-			"Create event",
-			"Sign up",
-			"garment",
-			"Garment",
-			"garment",
-			"Garment",
-			"garment",
-			"place",
-			"name",
-			"email",
-			"@",
-			"micropost",
-			"users"
+			"pp"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -744,13 +788,155 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "BaseNpc.cpp",
+					"settings":
+					{
+						"buffer_size": 3412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								704,
+								704
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "NpcOwnedStates.cpp",
+					"settings":
+					{
+						"buffer_size": 2179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "GameState.cpp",
+					"settings":
+					{
+						"buffer_size": 8960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2093,
+								2093
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 28.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 3,
+					"file": "NpcOwnedStates.h",
+					"settings":
+					{
+						"buffer_size": 980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "BaseNpc.h",
+					"settings":
+					{
+						"buffer_size": 1153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
