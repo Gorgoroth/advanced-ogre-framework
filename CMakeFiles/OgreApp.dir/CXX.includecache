@@ -44,9 +44,15 @@ SdkTrays.h
 AdvancedOgreFramework.h
 /home/vk/Games/ogre3d/advanced-ogre-framework/AdvancedOgreFramework.h
 
+/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.cpp
+BaseNpc.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h
+
 /home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h
 GameState.h
 /home/vk/Games/ogre3d/advanced-ogre-framework/GameState.h
+NpcOwnedStates.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/NpcOwnedStates.h
 
 /home/vk/Games/ogre3d/advanced-ogre-framework/DotSceneLoader.h
 OgreString.h
@@ -62,10 +68,6 @@ vector
 rapidxml.h
 /home/vk/Games/ogre3d/advanced-ogre-framework/rapidxml.h
 
-/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.cpp
-GameState.h
-/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.h
-
 /home/vk/Games/ogre3d/advanced-ogre-framework/GameState.h
 AppState.h
 /home/vk/Games/ogre3d/advanced-ogre-framework/AppState.h
@@ -75,6 +77,14 @@ OgreSubEntity.h
 -
 OgreMaterialManager.h
 -
+BaseNpc.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h
+
+/home/vk/Games/ogre3d/advanced-ogre-framework/NpcBaseState.h
+
+/home/vk/Games/ogre3d/advanced-ogre-framework/NpcOwnedStates.h
+NpcBaseState.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/NpcBaseState.h
 BaseNpc.h
 /home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h
 

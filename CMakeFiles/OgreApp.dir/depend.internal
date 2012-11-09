@@ -220,6 +220,8 @@ CMakeFiles/OgreApp.dir/BaseNpc.cpp.o
  /home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h
  /home/vk/Games/ogre3d/advanced-ogre-framework/DotSceneLoader.h
  /home/vk/Games/ogre3d/advanced-ogre-framework/GameState.h
+ /home/vk/Games/ogre3d/advanced-ogre-framework/NpcBaseState.h
+ /home/vk/Games/ogre3d/advanced-ogre-framework/NpcOwnedStates.h
  /home/vk/Games/ogre3d/advanced-ogre-framework/rapidxml.h
  /usr/include/OIS/OISConfig.h
  /usr/include/OIS/OISEvents.h
@@ -851,6 +853,8 @@ CMakeFiles/OgreApp.dir/GameState.cpp.o
  /home/vk/Games/ogre3d/advanced-ogre-framework/DotSceneLoader.h
  /home/vk/Games/ogre3d/advanced-ogre-framework/GameState.cpp
  /home/vk/Games/ogre3d/advanced-ogre-framework/GameState.h
+ /home/vk/Games/ogre3d/advanced-ogre-framework/NpcBaseState.h
+ /home/vk/Games/ogre3d/advanced-ogre-framework/NpcOwnedStates.h
  /home/vk/Games/ogre3d/advanced-ogre-framework/rapidxml.h
  /usr/include/OIS/OISConfig.h
  /usr/include/OIS/OISEvents.h
@@ -1267,6 +1271,10 @@ CMakeFiles/OgreApp.dir/MenuState.cpp.o
  /usr/local/include/OGRE/Threading/OgreThreadDefinesBoost.h
  /usr/local/include/OGRE/Threading/OgreThreadHeaders.h
  /usr/local/include/OGRE/Threading/OgreThreadHeadersBoost.h
+CMakeFiles/OgreApp.dir/NpcOwnedStates.cpp.o
+ /home/vk/Games/ogre3d/advanced-ogre-framework/NpcBaseState.h
+ /home/vk/Games/ogre3d/advanced-ogre-framework/NpcOwnedStates.cpp
+ /home/vk/Games/ogre3d/advanced-ogre-framework/NpcOwnedStates.h
 CMakeFiles/OgreApp.dir/PauseState.cpp.o
  /home/vk/Games/ogre3d/advanced-ogre-framework/AdvancedOgreFramework.h
  /home/vk/Games/ogre3d/advanced-ogre-framework/AppState.h

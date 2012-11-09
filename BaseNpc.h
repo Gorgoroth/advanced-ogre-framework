@@ -2,6 +2,7 @@
 #define BASE_NPC_H
 
 #include "GameState.h"
+#include "NpcOwnedStates.h"
 
 class BaseNpc
 {
@@ -10,6 +11,8 @@ public:
   BaseNpc(Ogre::String name, Ogre::SceneManager* m_pSceneMgr, Ogre::Vector3 start);
   void update(double timeSinceLastFrame);
   virtual void addLocation(Ogre::Vector3 destination);
+
+  void ChangeState(NpcBaseState *pNewState);
 
 protected:
   virtual bool nextLocation(Ogre::SceneNode* m_pNpcNode);
@@ -29,6 +32,8 @@ private:
   // String mesh;
   // Vector3 position;
   // Orientation
+
+  NpcBaseState* m_pCurrentState;
 };
 
 #endif // BASE_NPC_H

@@ -320,6 +320,30 @@ MenuState.cpp.s:
 	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/MenuState.cpp.s
 .PHONY : MenuState.cpp.s
 
+NpcOwnedStates.o: NpcOwnedStates.cpp.o
+.PHONY : NpcOwnedStates.o
+
+# target to build an object file
+NpcOwnedStates.cpp.o:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/NpcOwnedStates.cpp.o
+.PHONY : NpcOwnedStates.cpp.o
+
+NpcOwnedStates.i: NpcOwnedStates.cpp.i
+.PHONY : NpcOwnedStates.i
+
+# target to preprocess a source file
+NpcOwnedStates.cpp.i:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/NpcOwnedStates.cpp.i
+.PHONY : NpcOwnedStates.cpp.i
+
+NpcOwnedStates.s: NpcOwnedStates.cpp.s
+.PHONY : NpcOwnedStates.s
+
+# target to generate assembly for a file
+NpcOwnedStates.cpp.s:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/NpcOwnedStates.cpp.s
+.PHONY : NpcOwnedStates.cpp.s
+
 PauseState.o: PauseState.cpp.o
 .PHONY : PauseState.o
 
@@ -402,6 +426,9 @@ help:
 	@echo "... MenuState.o"
 	@echo "... MenuState.i"
 	@echo "... MenuState.s"
+	@echo "... NpcOwnedStates.o"
+	@echo "... NpcOwnedStates.i"
+	@echo "... NpcOwnedStates.s"
 	@echo "... PauseState.o"
 	@echo "... PauseState.i"
 	@echo "... PauseState.s"

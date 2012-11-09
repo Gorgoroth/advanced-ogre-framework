@@ -11,6 +11,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/vk/Games/ogre3d/advanced-ogre-framework/DotSceneLoader.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o"
   "/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/GameState.cpp.o"
   "/home/vk/Games/ogre3d/advanced-ogre-framework/MenuState.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/MenuState.cpp.o"
+  "/home/vk/Games/ogre3d/advanced-ogre-framework/NpcOwnedStates.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/NpcOwnedStates.cpp.o"
   "/home/vk/Games/ogre3d/advanced-ogre-framework/PauseState.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/PauseState.cpp.o"
   "/home/vk/Games/ogre3d/advanced-ogre-framework/main.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/main.cpp.o"
   )

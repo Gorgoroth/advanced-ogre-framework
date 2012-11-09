@@ -2,6 +2,9 @@
 #define NPC_OWNED_STATES_H
 
 #include "NpcBaseState.h"
+#include "BaseNpc.h"
+
+class BaseNpc;
 
 class Idle : public NpcBaseState
 {

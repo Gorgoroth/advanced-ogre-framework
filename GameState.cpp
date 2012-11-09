@@ -72,6 +72,7 @@ void GameState::createScene()
 {
     // --- Objects
     m_pNpc01 = new BaseNpc("Blacksmith", m_pSceneMgr, Ogre::Vector3(50.0f,  0.0f,  50.0f));
+    m_pNpc01->ChangeState(Work::Instance());
     //m_pNpc02 = new BaseNpc("Woman", m_pSceneMgr, Ogre::Vector3(-50.0f,  0.0f,  -50.0f));
     //m_pNpc01->addLocation(Ogre::Vector3(-100.0f,0.0f,-100.0f));
 

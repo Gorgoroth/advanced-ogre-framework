@@ -146,6 +146,8 @@
       </Unit>
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/MenuState.cpp">
       </Unit>
+      <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/NpcOwnedStates.cpp">
+      </Unit>
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/PauseState.cpp">
       </Unit>
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/main.cpp">
@@ -165,6 +167,10 @@
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.h">
       </Unit>
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/MenuState.h">
+      </Unit>
+      <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/NpcBaseState.h">
+      </Unit>
+      <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/NpcOwnedStates.h">
       </Unit>
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/PauseState.h">
       </Unit>

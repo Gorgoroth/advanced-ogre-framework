@@ -2,7 +2,6 @@
 
 BaseNpc::BaseNpc()
 {
-
 }
 
 BaseNpc::BaseNpc(Ogre::String name, Ogre::SceneManager* m_pSceneMgr, Ogre::Vector3 start)
@@ -13,6 +12,8 @@ BaseNpc::BaseNpc(Ogre::String name, Ogre::SceneManager* m_pSceneMgr, Ogre::Vecto
   m_pNpcNode = m_pSceneMgr->getRootSceneNode()->createChildSceneNode(name + "Node");
   m_pNpcNode->attachObject(m_pNPC);
   m_pNpcNode->setPosition(start);
+
+  m_pCurrentState = Idle::Instance();
 
   // Show name
   // Ogre::MovableText* msg = new Ogre::MovableText("TXT_001", "this is the caption");
@@ -42,6 +43,10 @@ BaseNpc::BaseNpc(Ogre::String name, Ogre::SceneManager* m_pSceneMgr, Ogre::Vecto
 void BaseNpc::update(double timeSinceLastFrame)
 {
   mAnimationState->addTime(timeSinceLastFrame);
+
+  if (m_pCurrentState) {
+    m_pCurrentState->Execute(this);
+  }
 
   if (isMoving == false) {
     if (nextLocation(m_pNpcNode)) {
@@ -78,6 +83,15 @@ void BaseNpc::update(double timeSinceLastFrame)
       m_pNpcNode->translate(mDirection * move);
     }
   }
+}
+
+void BaseNpc::ChangeState(NpcBaseState *pNewState)
+{
+   assert(m_pCurrentState && pNewState);
+
+   m_pCurrentState->Exit(this);
+   m_pCurrentState = pNewState;
+   m_pCurrentState->Enter(this);
 }
 
 void BaseNpc::addLocation(Ogre::Vector3 destination)

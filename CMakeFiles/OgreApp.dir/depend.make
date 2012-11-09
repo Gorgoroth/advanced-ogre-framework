@@ -219,6 +219,8 @@ CMakeFiles/OgreApp.dir/BaseNpc.cpp.o: BaseNpc.cpp
 CMakeFiles/OgreApp.dir/BaseNpc.cpp.o: BaseNpc.h
 CMakeFiles/OgreApp.dir/BaseNpc.cpp.o: DotSceneLoader.h
 CMakeFiles/OgreApp.dir/BaseNpc.cpp.o: GameState.h
+CMakeFiles/OgreApp.dir/BaseNpc.cpp.o: NpcBaseState.h
+CMakeFiles/OgreApp.dir/BaseNpc.cpp.o: NpcOwnedStates.h
 CMakeFiles/OgreApp.dir/BaseNpc.cpp.o: rapidxml.h
 CMakeFiles/OgreApp.dir/BaseNpc.cpp.o: /usr/include/OIS/OISConfig.h
 CMakeFiles/OgreApp.dir/BaseNpc.cpp.o: /usr/include/OIS/OISEvents.h
@@ -850,6 +852,8 @@ CMakeFiles/OgreApp.dir/GameState.cpp.o: BaseNpc.h
 CMakeFiles/OgreApp.dir/GameState.cpp.o: DotSceneLoader.h
 CMakeFiles/OgreApp.dir/GameState.cpp.o: GameState.cpp
 CMakeFiles/OgreApp.dir/GameState.cpp.o: GameState.h
+CMakeFiles/OgreApp.dir/GameState.cpp.o: NpcBaseState.h
+CMakeFiles/OgreApp.dir/GameState.cpp.o: NpcOwnedStates.h
 CMakeFiles/OgreApp.dir/GameState.cpp.o: rapidxml.h
 CMakeFiles/OgreApp.dir/GameState.cpp.o: /usr/include/OIS/OISConfig.h
 CMakeFiles/OgreApp.dir/GameState.cpp.o: /usr/include/OIS/OISEvents.h
@@ -1266,6 +1270,10 @@ CMakeFiles/OgreApp.dir/MenuState.cpp.o: /usr/local/include/OGRE/Threading/OgreTh
 CMakeFiles/OgreApp.dir/MenuState.cpp.o: /usr/local/include/OGRE/Threading/OgreThreadDefinesBoost.h
 CMakeFiles/OgreApp.dir/MenuState.cpp.o: /usr/local/include/OGRE/Threading/OgreThreadHeaders.h
 CMakeFiles/OgreApp.dir/MenuState.cpp.o: /usr/local/include/OGRE/Threading/OgreThreadHeadersBoost.h
+
+CMakeFiles/OgreApp.dir/NpcOwnedStates.cpp.o: NpcBaseState.h
+CMakeFiles/OgreApp.dir/NpcOwnedStates.cpp.o: NpcOwnedStates.cpp
+CMakeFiles/OgreApp.dir/NpcOwnedStates.cpp.o: NpcOwnedStates.h
 
 CMakeFiles/OgreApp.dir/PauseState.cpp.o: AdvancedOgreFramework.h
 CMakeFiles/OgreApp.dir/PauseState.cpp.o: AppState.h
