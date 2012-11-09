@@ -4,7 +4,7 @@ using namespace Ogre;
 
 GameState::GameState()
 {
-    m_MoveSpeed                 = 0.1f;
+    m_MoveSpeed                 = 1.0f;
     m_RotateSpeed               = 0.3f;
 
     m_bLMouseDown       = false;
@@ -73,11 +73,39 @@ void GameState::createScene()
     // --- Objects
     m_pNpc01 = new BaseNpc("Blacksmith", m_pSceneMgr, Ogre::Vector3(50.0f,  0.0f,  50.0f));
     //m_pNpc02 = new BaseNpc("Woman", m_pSceneMgr, Ogre::Vector3(-50.0f,  0.0f,  -50.0f));
-    m_pNpc01->addLocation(Ogre::Vector3(-100.0f,0.0f,-100.0f));
+    //m_pNpc01->addLocation(Ogre::Vector3(-100.0f,0.0f,-100.0f));
 
     // --- World
     // Light
     m_pSceneMgr->setAmbientLight(Ogre::ColourValue(0.7, 0.7, 0.7));
+
+    // Objects
+    // Home
+    Ogre::Entity* home = m_pSceneMgr->createEntity("Home", "tudorhouse.mesh");
+    //home->setCastShadows(true);
+    Ogre::SceneNode* homeNode = m_pSceneMgr->getRootSceneNode()->createChildSceneNode("HomeNode");
+    homeNode->attachObject(home);
+    homeNode->setPosition(Ogre::Vector3(-400.0f,220.0f,-400.0f));
+    homeNode->setScale(0.4f, 0.4f, 0.4f);
+
+    // Work
+    Ogre::Entity* work = m_pSceneMgr->createEntity("Work", "tudorhouse.mesh");
+    //work->setCastShadows(true);
+    Ogre::SceneNode* workNode = m_pSceneMgr->getRootSceneNode()->createChildSceneNode("WorkNode");
+    workNode->attachObject(work);
+    workNode->setPosition(Ogre::Vector3(400.0f,220.0f,400.0f));
+    workNode->setScale(0.4f, 0.4f, 0.4f);
+    workNode->yaw(Ogre::Degree(180));
+
+    // Tavern
+    Ogre::Entity* tavern = m_pSceneMgr->createEntity("Tavern", "tudorhouse.mesh");
+    //tavern->setCastShadows(true);
+    Ogre::SceneNode* tavernNode = m_pSceneMgr->getRootSceneNode()->createChildSceneNode("TavernNode");
+    tavernNode->attachObject(tavern);
+    tavernNode->setPosition(Ogre::Vector3(-400.0f,220.0f,400.0f));
+    tavernNode->setScale(0.4f, 0.4f, 0.4f);
+    tavernNode->yaw(Ogre::Degree(180));
+
 
     // Ground
     Ogre::Plane plane(Ogre::Vector3::UNIT_Y, 0);
