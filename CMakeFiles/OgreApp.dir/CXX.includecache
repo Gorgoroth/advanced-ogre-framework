@@ -44,13 +44,49 @@ SdkTrays.h
 AdvancedOgreFramework.h
 /home/vk/Games/ogre3d/advanced-ogre-framework/AdvancedOgreFramework.h
 
-/home/vk/Games/ogre3d/advanced-ogre-framework/MenuState.cpp
-MenuState.h
-/home/vk/Games/ogre3d/advanced-ogre-framework/MenuState.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h
+GameState.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.h
 
-/home/vk/Games/ogre3d/advanced-ogre-framework/MenuState.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/DotSceneLoader.h
+OgreString.h
+-
+OgreVector3.h
+-
+OgreQuaternion.h
+-
+OgreResourceGroupManager.h
+-
+vector
+-
+rapidxml.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/rapidxml.h
+
+/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.cpp
+GameState.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.h
+
+/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.h
 AppState.h
 /home/vk/Games/ogre3d/advanced-ogre-framework/AppState.h
+DotSceneLoader.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/DotSceneLoader.h
+OgreSubEntity.h
+-
+OgreMaterialManager.h
+-
+BaseNpc.h
+/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h
+
+/home/vk/Games/ogre3d/advanced-ogre-framework/rapidxml.h
+cstdlib
+-
+cassert
+-
+new
+-
+exception
+-
 
 /usr/include/OIS/OISConfig.h
 

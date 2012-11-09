@@ -200,6 +200,30 @@ AppStateManager.cpp.s:
 	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/AppStateManager.cpp.s
 .PHONY : AppStateManager.cpp.s
 
+BaseNpc.o: BaseNpc.cpp.o
+.PHONY : BaseNpc.o
+
+# target to build an object file
+BaseNpc.cpp.o:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BaseNpc.cpp.o
+.PHONY : BaseNpc.cpp.o
+
+BaseNpc.i: BaseNpc.cpp.i
+.PHONY : BaseNpc.i
+
+# target to preprocess a source file
+BaseNpc.cpp.i:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BaseNpc.cpp.i
+.PHONY : BaseNpc.cpp.i
+
+BaseNpc.s: BaseNpc.cpp.s
+.PHONY : BaseNpc.s
+
+# target to generate assembly for a file
+BaseNpc.cpp.s:
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BaseNpc.cpp.s
+.PHONY : BaseNpc.cpp.s
+
 DemoApp.o: DemoApp.cpp.o
 .PHONY : DemoApp.o
 
@@ -363,6 +387,9 @@ help:
 	@echo "... AppStateManager.o"
 	@echo "... AppStateManager.i"
 	@echo "... AppStateManager.s"
+	@echo "... BaseNpc.o"
+	@echo "... BaseNpc.i"
+	@echo "... BaseNpc.s"
 	@echo "... DemoApp.o"
 	@echo "... DemoApp.i"
 	@echo "... DemoApp.s"

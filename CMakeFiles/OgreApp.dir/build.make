@@ -95,9 +95,32 @@ CMakeFiles/OgreApp.dir/AppStateManager.cpp.o.provides: CMakeFiles/OgreApp.dir/Ap
 
 CMakeFiles/OgreApp.dir/AppStateManager.cpp.o.provides.build: CMakeFiles/OgreApp.dir/AppStateManager.cpp.o
 
+CMakeFiles/OgreApp.dir/BaseNpc.cpp.o: CMakeFiles/OgreApp.dir/flags.make
+CMakeFiles/OgreApp.dir/BaseNpc.cpp.o: BaseNpc.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OgreApp.dir/BaseNpc.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreApp.dir/BaseNpc.cpp.o -c /home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.cpp
+
+CMakeFiles/OgreApp.dir/BaseNpc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreApp.dir/BaseNpc.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.cpp > CMakeFiles/OgreApp.dir/BaseNpc.cpp.i
+
+CMakeFiles/OgreApp.dir/BaseNpc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreApp.dir/BaseNpc.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.cpp -o CMakeFiles/OgreApp.dir/BaseNpc.cpp.s
+
+CMakeFiles/OgreApp.dir/BaseNpc.cpp.o.requires:
+.PHONY : CMakeFiles/OgreApp.dir/BaseNpc.cpp.o.requires
+
+CMakeFiles/OgreApp.dir/BaseNpc.cpp.o.provides: CMakeFiles/OgreApp.dir/BaseNpc.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BaseNpc.cpp.o.provides.build
+.PHONY : CMakeFiles/OgreApp.dir/BaseNpc.cpp.o.provides
+
+CMakeFiles/OgreApp.dir/BaseNpc.cpp.o.provides.build: CMakeFiles/OgreApp.dir/BaseNpc.cpp.o
+
 CMakeFiles/OgreApp.dir/DemoApp.cpp.o: CMakeFiles/OgreApp.dir/flags.make
 CMakeFiles/OgreApp.dir/DemoApp.cpp.o: DemoApp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OgreApp.dir/DemoApp.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreApp.dir/DemoApp.cpp.o -c /home/vk/Games/ogre3d/advanced-ogre-framework/DemoApp.cpp
 
@@ -120,7 +143,7 @@ CMakeFiles/OgreApp.dir/DemoApp.cpp.o.provides.build: CMakeFiles/OgreApp.dir/Demo
 
 CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o: CMakeFiles/OgreApp.dir/flags.make
 CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o: DotSceneLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o -c /home/vk/Games/ogre3d/advanced-ogre-framework/DotSceneLoader.cpp
 
@@ -143,7 +166,7 @@ CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o.provides.build: CMakeFiles/OgreApp.d
 
 CMakeFiles/OgreApp.dir/GameState.cpp.o: CMakeFiles/OgreApp.dir/flags.make
 CMakeFiles/OgreApp.dir/GameState.cpp.o: GameState.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OgreApp.dir/GameState.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreApp.dir/GameState.cpp.o -c /home/vk/Games/ogre3d/advanced-ogre-framework/GameState.cpp
 
@@ -166,7 +189,7 @@ CMakeFiles/OgreApp.dir/GameState.cpp.o.provides.build: CMakeFiles/OgreApp.dir/Ga
 
 CMakeFiles/OgreApp.dir/MenuState.cpp.o: CMakeFiles/OgreApp.dir/flags.make
 CMakeFiles/OgreApp.dir/MenuState.cpp.o: MenuState.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OgreApp.dir/MenuState.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreApp.dir/MenuState.cpp.o -c /home/vk/Games/ogre3d/advanced-ogre-framework/MenuState.cpp
 
@@ -189,7 +212,7 @@ CMakeFiles/OgreApp.dir/MenuState.cpp.o.provides.build: CMakeFiles/OgreApp.dir/Me
 
 CMakeFiles/OgreApp.dir/PauseState.cpp.o: CMakeFiles/OgreApp.dir/flags.make
 CMakeFiles/OgreApp.dir/PauseState.cpp.o: PauseState.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OgreApp.dir/PauseState.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreApp.dir/PauseState.cpp.o -c /home/vk/Games/ogre3d/advanced-ogre-framework/PauseState.cpp
 
@@ -212,7 +235,7 @@ CMakeFiles/OgreApp.dir/PauseState.cpp.o.provides.build: CMakeFiles/OgreApp.dir/P
 
 CMakeFiles/OgreApp.dir/main.cpp.o: CMakeFiles/OgreApp.dir/flags.make
 CMakeFiles/OgreApp.dir/main.cpp.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OgreApp.dir/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreApp.dir/main.cpp.o -c /home/vk/Games/ogre3d/advanced-ogre-framework/main.cpp
 
@@ -237,6 +260,7 @@ CMakeFiles/OgreApp.dir/main.cpp.o.provides.build: CMakeFiles/OgreApp.dir/main.cp
 OgreApp_OBJECTS = \
 "CMakeFiles/OgreApp.dir/AdvancedOgreFramework.cpp.o" \
 "CMakeFiles/OgreApp.dir/AppStateManager.cpp.o" \
+"CMakeFiles/OgreApp.dir/BaseNpc.cpp.o" \
 "CMakeFiles/OgreApp.dir/DemoApp.cpp.o" \
 "CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o" \
 "CMakeFiles/OgreApp.dir/GameState.cpp.o" \
@@ -249,6 +273,7 @@ OgreApp_EXTERNAL_OBJECTS =
 
 dist/bin/OgreApp: CMakeFiles/OgreApp.dir/AdvancedOgreFramework.cpp.o
 dist/bin/OgreApp: CMakeFiles/OgreApp.dir/AppStateManager.cpp.o
+dist/bin/OgreApp: CMakeFiles/OgreApp.dir/BaseNpc.cpp.o
 dist/bin/OgreApp: CMakeFiles/OgreApp.dir/DemoApp.cpp.o
 dist/bin/OgreApp: CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o
 dist/bin/OgreApp: CMakeFiles/OgreApp.dir/GameState.cpp.o
@@ -271,6 +296,7 @@ CMakeFiles/OgreApp.dir/build: dist/bin/OgreApp
 
 CMakeFiles/OgreApp.dir/requires: CMakeFiles/OgreApp.dir/AdvancedOgreFramework.cpp.o.requires
 CMakeFiles/OgreApp.dir/requires: CMakeFiles/OgreApp.dir/AppStateManager.cpp.o.requires
+CMakeFiles/OgreApp.dir/requires: CMakeFiles/OgreApp.dir/BaseNpc.cpp.o.requires
 CMakeFiles/OgreApp.dir/requires: CMakeFiles/OgreApp.dir/DemoApp.cpp.o.requires
 CMakeFiles/OgreApp.dir/requires: CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o.requires
 CMakeFiles/OgreApp.dir/requires: CMakeFiles/OgreApp.dir/GameState.cpp.o.requires

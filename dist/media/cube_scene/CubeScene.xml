@@ -6,17 +6,17 @@
       <scale x="1.000000" y="1.000000" z="1.000000"/>
       <entity name="Cube01" meshFile="Cube01.mesh"/>
     </node>
-    <node name="Cube03">
-      <position x="15.000000" y="0.000000" z="-0.000000"/>
-      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
-      <scale x="1.000000" y="1.000000" z="1.000000"/>
-      <entity name="Cube03" meshFile="Cube03.mesh"/>
-    </node>
     <node name="Cube02">
       <position x="0.000000" y="0.000000" z="-0.000000"/>
       <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
       <scale x="1.000000" y="1.000000" z="1.000000"/>
       <entity name="Cube02" meshFile="Cube02.mesh"/>
+    </node>
+    <node name="Cube03">
+      <position x="15.000000" y="0.000000" z="-0.000000"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="Cube03" meshFile="Cube03.mesh"/>
     </node>
   </nodes>
   <externals>
@@ -26,6 +26,6 @@
   </externals>
   <environment>
     <colourAmbient r="0.000000" g="0.000000" b="0.000000"/>
-    <colourBackground r="0.056563" g="0.220815" b="0.400000"/>
+    <colourBackground r="0.5" g="0.5" b="0.5"/>
   </environment>
 </scene>

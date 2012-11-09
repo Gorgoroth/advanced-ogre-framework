@@ -6,6 +6,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/vk/Games/ogre3d/advanced-ogre-framework/AdvancedOgreFramework.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/AdvancedOgreFramework.cpp.o"
   "/home/vk/Games/ogre3d/advanced-ogre-framework/AppStateManager.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/AppStateManager.cpp.o"
+  "/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/BaseNpc.cpp.o"
   "/home/vk/Games/ogre3d/advanced-ogre-framework/DemoApp.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/DemoApp.cpp.o"
   "/home/vk/Games/ogre3d/advanced-ogre-framework/DotSceneLoader.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o"
   "/home/vk/Games/ogre3d/advanced-ogre-framework/GameState.cpp" "/home/vk/Games/ogre3d/advanced-ogre-framework/CMakeFiles/OgreApp.dir/GameState.cpp.o"

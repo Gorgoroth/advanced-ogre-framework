@@ -28,9 +28,9 @@ void PauseState::enter()
 
     AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->destroyAllWidgets();
     AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->showCursor();
-    AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "BackToGameBtn", "Return to GameState", 250);
+    AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "BackToGameBtn", "Return to Game", 250);
     AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "BackToMenuBtn", "Return to Menu", 250);
-    AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "ExitBtn", "Exit AdvancedAdvancedOgreFramework", 250);
+    AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->createButton(OgreBites::TL_CENTER, "ExitBtn", "Exit Game", 250);
     AdvancedOgreFramework::getSingletonPtr()->m_pTrayMgr->createLabel(OgreBites::TL_TOP, "PauseLbl", "Pause mode", 250);
 
     m_bQuit = false;

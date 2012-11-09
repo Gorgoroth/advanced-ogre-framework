@@ -136,6 +136,8 @@
       </Unit>
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/AppStateManager.cpp">
       </Unit>
+      <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.cpp">
+      </Unit>
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/DemoApp.cpp">
       </Unit>
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/DotSceneLoader.cpp">
@@ -153,6 +155,8 @@
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/AppState.h">
       </Unit>
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/AppStateManager.h">
+      </Unit>
+      <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/BaseNpc.h">
       </Unit>
       <Unit filename="/home/vk/Games/ogre3d/advanced-ogre-framework/DemoApp.h">
       </Unit>

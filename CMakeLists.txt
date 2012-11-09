@@ -111,6 +111,7 @@ set(HDRS
 	./AdvancedOgreFramework.h
 	./AppState.h
 	./AppStateManager.h
+	./BaseNpc.h
 	./DemoApp.h
 	./DotSceneLoader.h
 	./GameState.h
@@ -122,6 +123,7 @@ set(HDRS
 set(SRCS
 	./AdvancedOgreFramework.cpp
 	./AppStateManager.cpp
+	./BaseNpc.cpp
 	./DemoApp.cpp
 	./DotSceneLoader.cpp
 	./GameState.cpp

@@ -1,6 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/OgreApp.dir/AdvancedOgreFramework.cpp.o"
   "CMakeFiles/OgreApp.dir/AppStateManager.cpp.o"
+  "CMakeFiles/OgreApp.dir/BaseNpc.cpp.o"
   "CMakeFiles/OgreApp.dir/DemoApp.cpp.o"
   "CMakeFiles/OgreApp.dir/DotSceneLoader.cpp.o"
   "CMakeFiles/OgreApp.dir/GameState.cpp.o"

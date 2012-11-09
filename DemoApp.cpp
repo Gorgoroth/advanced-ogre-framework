@@ -18,7 +18,7 @@ DemoApp::~DemoApp()
 void DemoApp::startDemo()
 {
     new AdvancedOgreFramework();
-    if(!AdvancedOgreFramework::getSingletonPtr()->initOgre("AdvancedAdvancedOgreFramework", 0, 0))
+    if(!AdvancedOgreFramework::getSingletonPtr()->initOgre("AdvancedOgreFramework", 0, 0))
             return;
 
     AdvancedOgreFramework::getSingletonPtr()->m_pLog->logMessage("Demo initialized!");

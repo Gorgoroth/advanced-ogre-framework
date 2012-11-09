@@ -8,61 +8,68 @@
 #include <OgreSubEntity.h>
 #include <OgreMaterialManager.h>
 
+#include "BaseNpc.h"
+
 enum QueryFlags
 {
-    OGRE_HEAD_MASK  = 1<<0,
-    CUBE_MASK           = 1<<1
+    OGRE_HEAD_MASK = 1<<0,
+    CUBE_MASK = 1<<1
 };
+class BaseNpc;
 
 class GameState : public AppState
 {
 public:
-        GameState();
+    GameState();
 
-        DECLARE_APPSTATE_CLASS(GameState)
+    DECLARE_APPSTATE_CLASS(GameState)
 
-        void enter();
-        void createScene();
-        void exit();
-        bool pause();
-        void resume();
+    void enter();
+    void createScene();
+    void exit();
+    bool pause();
+    void resume();
 
-        void moveCamera();
-        void getInput();
+    void moveCamera();
+    void getInput();
     void buildGUI();
 
-        bool keyPressed(const OIS::KeyEvent &keyEventRef);
-        bool keyReleased(const OIS::KeyEvent &keyEventRef);
+    bool keyPressed(const OIS::KeyEvent &keyEventRef);
+    bool keyReleased(const OIS::KeyEvent &keyEventRef);
 
-        bool mouseMoved(const OIS::MouseEvent &arg);
-        bool mousePressed(const OIS::MouseEvent &arg, OIS::MouseButtonID id);
-        bool mouseReleased(const OIS::MouseEvent &arg, OIS::MouseButtonID id);
+    bool mouseMoved(const OIS::MouseEvent &arg);
+    bool mousePressed(const OIS::MouseEvent &arg, OIS::MouseButtonID id);
+    bool mouseReleased(const OIS::MouseEvent &arg, OIS::MouseButtonID id);
 
-        void onLeftPressed(const OIS::MouseEvent &evt);
-    void itemSelected(OgreBites::SelectMenu* menu);
+    void onLeftPressed(const OIS::MouseEvent &evt);
 
-        void update(double timeSinceLastFrame);
+    void update(double timeSinceLastFrame);
 
 private:
-        Ogre::SceneNode*                        m_pOgreHeadNode;
-        Ogre::Entity*                           m_pOgreHeadEntity;
-        Ogre::MaterialPtr                       m_pOgreHeadMat;
-        Ogre::MaterialPtr                       m_pOgreHeadMatHigh;
+    Ogre::SceneNode* m_pOgreHeadNode;
+    Ogre::Entity* m_pOgreHeadEntity;
+    Ogre::MaterialPtr m_pOgreHeadMat;
+    Ogre::MaterialPtr m_pOgreHeadMatHigh;
 
-    OgreBites::ParamsPanel*             m_pDetailsPanel;
-        bool                                            m_bQuit;
+    Ogre::RaySceneQuery *mRaySceneQuery;// The ray scene query pointer
 
-        Ogre::Vector3                           m_TranslateVector;
-        Ogre::Real                                      m_MoveSpeed;
-        Ogre::Degree                            m_RotateSpeed;
-        float                                           m_MoveScale;
-        Ogre::Degree                            m_RotScale;
+    BaseNpc* m_pNpc01;
+    BaseNpc* m_pNpc02;
 
-        Ogre::RaySceneQuery*            m_pRSQ;
-        Ogre::SceneNode*                        m_pCurrentObject;
-        Ogre::Entity*                           m_pCurrentEntity;
-        bool                                            m_bLMouseDown, m_bRMouseDown;
-        bool                                            m_bSettingsMode;
+    OgreBites::ParamsPanel* m_pDetailsPanel;
+    bool m_bQuit;
+
+    Ogre::Vector3 m_TranslateVector;
+    Ogre::Real m_MoveSpeed;
+    Ogre::Degree m_RotateSpeed;
+    float m_MoveScale;
+    Ogre::Degree m_RotScale;
+
+    Ogre::RaySceneQuery* m_pRSQ;
+    Ogre::SceneNode* m_pCurrentObject;
+    Ogre::Entity* m_pCurrentEntity;
+    bool m_bLMouseDown, m_bRMouseDown;
+    bool m_bSettingsMode;
 };
 
 #endif

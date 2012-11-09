@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
-	<ActiveTarget name="all" />
-	<File name="AdvancedOgreFramework.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="59" topLine="0" />
+	<ActiveTarget name="OgreApp" />
+	<File name="BaseNpc.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="395" topLine="0" />
 	</File>
-	<File name="AppStateManager.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="1268" topLine="0" />
+	<File name="BaseNpc.h" open="0" top="0" tabpos="1">
+		<Cursor position="23" topLine="0" />
 	</File>
-	<File name="DemoApp.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="202" topLine="0" />
+	<File name="GameState.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1207" topLine="7" />
 	</File>
-	<File name="DotSceneLoader.cpp" open="1" top="1" tabpos="7">
-		<Cursor position="299" topLine="0" />
+	<File name="GameState.h" open="0" top="0" tabpos="1">
+		<Cursor position="298" topLine="10" />
 	</File>
-	<File name="GameState.cpp" open="1" top="0" tabpos="4">
-		<Cursor position="352" topLine="0" />
-	</File>
-	<File name="MenuState.cpp" open="1" top="0" tabpos="5">
-		<Cursor position="172" topLine="0" />
-	</File>
-	<File name="PauseState.cpp" open="1" top="0" tabpos="6">
-		<Cursor position="217" topLine="0" />
+	<File name="MenuState.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="635" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>
